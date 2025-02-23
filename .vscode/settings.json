@@ -1,0 +1,39 @@
+{
+    // ✨ Formatting settings for HTML and CSS
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+
+    // 🌟 Prettier for consistent formatting
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    // 🚀 Emmet settings for faster coding
+    "emmet.includeLanguages": {
+        "html": "html",
+        "css": "css"
+    },
+    "emmet.triggerExpansionOnTab": true,
+
+    // 🔍 Linting for clean code (requires extensions)
+    "css.lint.unknownAtRules": "ignore",
+    "css.lint.validProperties": ["composes"],
+
+    // 🖋️ Editor behavior
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.wordWrap": "on",
+
+    // 🧹 Trim extra spaces
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+
+    // 💡 Auto-close tags and suggestions
+    "html.autoClosingTags": true,
+    "editor.quickSuggestions": {
+        "strings": true
+    }
+}
